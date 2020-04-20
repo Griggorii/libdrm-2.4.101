@@ -14,3 +14,12 @@ $ make -j16
 
 $ sudo make install
 
+Optional in folder
+
+  omap sudo make install
+  exynos sudo make install
+  freedreno sudo make install
+  tegra sudo make install
+  vc4 sudo make install
+  etnaviv sudo make install
+
