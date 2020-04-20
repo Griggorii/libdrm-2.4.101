@@ -1,5 +1,5 @@
 # libdrm-2.4.101
-libdrm-2.4.101 , linux , graphics , mesa , mesa-20.0.2_V3
+libdrm-2.4.101 , linux , graphics , mesa , mesa-20.0.2_V3 , NVD7 replace INTEL no wayland
 
 Ubuntu 19.04 and 19.10 install mesa+include https://github.com/Griggorii/mesa-20.0.2_V3
 
