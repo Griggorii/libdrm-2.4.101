@@ -8,7 +8,7 @@ $ sudo apt install libpciaccess-dev
 Run terminal in folder libdrm-2.4.101 command
 
 
-$ ./configure --prefix=/usr --exec_prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --includedir=/usr/include
+$ ./configure --enable-freedreno --enable-vc4 --prefix=/usr --exec_prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --includedir=/usr/include
 
 $ make -j16
 
@@ -19,12 +19,10 @@ Optional in folder
   omap sudo make install
   
   exynos sudo make install
-  
-  freedreno sudo make install
-  
+
   tegra sudo make install
   
-  vc4 sudo make install
-  
   etnaviv sudo make install
+  
+  Restore Wayland NVD7 sesion $ sudo apt --reinstall install libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 -y
 
