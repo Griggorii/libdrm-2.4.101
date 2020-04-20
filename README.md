@@ -24,5 +24,7 @@ Optional in folder
   
   etnaviv sudo make install
   
-  Restore Wayland NVD7 session $ sudo apt --reinstall install libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 -y
+  Restore driver Wayland NVD7 session command run terminal ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+  
+  $ sudo apt update && sudo apt --reinstall install libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 -y
 
