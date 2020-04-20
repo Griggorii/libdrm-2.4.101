@@ -26,5 +26,5 @@ Optional in folder
   
   Restore driver Wayland NVD7 session command run terminal ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
   
-  $ sudo apt update && sudo apt --reinstall install libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 -y
+  $ sudo apt update && sudo apt --reinstall install libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 -y && sudo rm -rf /etc/modprobe.d/blacklist-nvidia-nouveau.conf
 
